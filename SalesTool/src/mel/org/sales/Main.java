@@ -6,12 +6,14 @@ public class Main {
 		SalesData data = new SalesData();
 		
 		displayGreeting();
-		data.display(); 
+		data.display();
 	}
 
 	private static void displayGreeting() {
 		System.out.println("Hello, happy sales people!");
 		System.out.println("This app displays sales data.");
+		
+		System.out.println("Test 1");
 	}
 
 }
